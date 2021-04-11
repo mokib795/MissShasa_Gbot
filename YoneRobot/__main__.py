@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/977804a3688cded6ba673.jpg) `MySelf `*Miss Shasa*
+`Hellow` [🤗](https://telegra.ph/file/977804a3688cded6ba673.jpg) `My Name is `*Miss Shasa*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Miss SHASA TO YOUR GROUP ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="➕️ ADD Miss SHASA TO YOUR GROUP ➕️", url="http://t.me/MissShasa_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="yone_"),
@@ -352,7 +352,7 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Shasa*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
