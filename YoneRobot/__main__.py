@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(
             text="🤴 OWNER", url="https://t.me/Simpleboy786"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Lionuserbot786"
+            text="👥 SUPPORT", url="https://t.me/MissShasa_Gbot"
         ),
     ],
 ]
@@ -388,7 +388,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Shasa*
-                 \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
+                 \nHere is the [Source Code](https://github.com/MdNoor786/MissShasa_Gbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -635,7 +635,8 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1099219137
+                                   and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
