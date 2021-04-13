@@ -24,6 +24,9 @@ The easiest way to deploy this Bot
 CREDITS
 ```
 ❤️ MashaRobot = Dark Prince
+💜 Kittu 
+❤️ Sammy
+
 
 
 ```
